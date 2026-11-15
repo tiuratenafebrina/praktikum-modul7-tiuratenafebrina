@@ -3,300 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiur Atenafebrina | Portofolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+    <title>Daftar Tugas Praktikum PAW | Tiur Atenafebrina</title>
+    <!-- Menggunakan Bootstrap 5 CDN agar tampilannya rapi dan profesional -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="bg-light">
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-ink" data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand" href="#hero">Tiur Atenafebrina.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Buka menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#hero">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#keahlian">Keahlian</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#minat">Minat</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#organisasi">Organisasi</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero -->
-    <header id="hero" class="bg-sand">
-        <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-md-7 order-2 order-md-1">
-                    <h1 class="fw-bold">Halo, saya Tiur Atenafebrina.</h1>
-                    <p class="lead mt-3">Mahasiswa Telkom University Surabaya yang senang merancang aplikasi web, menganalisis sistem, dan mewujudkan ide kreatif ke dalam proyek teknologi.</p>
-                    <div class="d-flex flex-column flex-sm-row gap-3 mt-4">
-                        <a href="#proyek" class="btn btn-teal btn-lg px-4">Lihat proyek</a>
-                        <a href="#kontak" class="btn btn-outline-dark btn-lg px-4">Hubungi saya</a>
-                    </div>
-                </div>
-                <div class="col-md-5 order-1 order-md-2 d-flex justify-content-center">
-                    <img src="assets/images/foto_formalku1.jpeg" alt="Foto Tiur Atenafebrina" class="avatar avatar-img img-fluid">
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <!-- Tentang -->
-        <section id="tentang">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-5">
-                        <h2 class="section-title">Tentang saya</h2>
-                    </div>
-                    <div class="col-lg-7 fs-5">
-                        <p>Saya adalah mahasiswa aktif Program Studi S1 Sistem Informasi di Telkom University Surabaya (Kelas IS-08-02, NIM 108052500014).</p>
-                        <p>Selama menempuh pendidikan, saya memiliki rekam jejak prestasi akademik di antaranya pernah berpartisipasi dan meraih penghargaan dalam Olimpiade Matematika Tingkat Nasional serta kompetisi bahasa Inggris tingkat nasional.</p>
-                        <p>Di luar kelas, saya aktif berorganisasi di lingkungan kampus sebagai anggota Dewan Perwakilan Mahasiswa (DPM), Entrepreneur Community, serta Telkom Art, yang melatih kemampuan kepemimpinan, kerja sama tim, dan eksplorasi kreativitas.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Keahlian -->
-        <section id="keahlian" class="bg-sand">
-            <div class="container">
-                <h2 class="section-title">Keahlian</h2>
-                <div class="row g-4">
-                    <div class="col-md-6">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <i class="bi bi-code-slash fs-2 text-teal"></i>
-                                <h3 class="h5 mt-3">Pengembangan Aplikasi Web</h3>
-                                <p class="mb-0">Menguasai pembuatan halaman web dari tingkat dasar hingga lanjutan, mulai dari struktur HTML/CSS, form interaktif, tag semantik, penggunaan framework Bootstrap, hingga kolaborasi kode menggunakan Git dan GitHub.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <i class="bi bi-diagram-3 fs-2 text-teal"></i>
-                                <h3 class="h5 mt-3">Perancangan Sistem Informasi</h3>
-                                <p class="mb-0">Menguasai perancangan sistem informasi, mulai dari pemodelan proses bisnis BPMN hingga pembuatan diagram UML (Use Case, Activity diagram, dan Class Diagram).</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <i class="bi bi-hdd-network fs-2 text-teal"></i>
-                                <h3 class="h5 mt-3">Administrasi Jaringan & Server</h3>
-                                <p class="mb-0">Memahami dasar administrasi jaringan dan server lokal berbasis Linux menggunakan Nginx serta BIND.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <i class="bi bi-file-earmark-text fs-2 text-teal"></i>
-                                <h3 class="h5 mt-3">Pengolahan Data & Konten</h3>
-                                <p class="mb-0">Mampu mengoperasikan Microsoft Office (Word dan Excel) untuk penyusunan laporan, dokumen, serta pengolahan data, serta mampu mengedit video untuk kebutuhan pembuatan konten digital yang menarik dan kreatif.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Minat -->
-        <section id="minat">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-5">
-                        <h2 class="section-title">Minat</h2>
-                    </div>
-                    <div class="col-lg-7 fs-5">
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3"><i class="bi bi-check-circle-fill text-teal me-2"></i>Tertarik mendalami bidang teknologi informasi, pengembangan web, serta konfigurasi jaringan komputer dan server.</li>
-                            <li class="mb-3"><i class="bi bi-check-circle-fill text-teal me-2"></i>Memiliki minat yang besar pada bidang kewirausahaan, manajemen bisnis, serta strategi pengembangan dan pemasaran usaha digital.</li>
-                            <li><i class="bi bi-check-circle-fill text-teal me-2"></i>Memiliki minat dalam mengeksplorasi dunia seni peran, panggung hiburan, serta pembuatan konten digital yang kreatif.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Organisasi -->
-        <section id="organisasi" class="bg-sand">
-            <div class="container">
-                <h2 class="section-title">Organisasi & Peran</h2>
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="timeline">
-                            <div class="timeline-item mb-4">
-                                <h3 class="h5 mb-1">Bendahara (BPH) — Punggawa Inspiratif</h3>
-                                <p class="text-muted small mb-2">Telkom University Surabaya</p>
-                                <p class="mb-0">Mengelola keuangan, menyusun perencanaan anggaran, serta membuat laporan pertanggungjawaban dana kegiatan organisasi.</p>
-                            </div>
-                            <div class="timeline-item mb-4">
-                                <h3 class="h5 mb-1">Anggota Departemen Syiar — UKKI</h3>
-                                <p class="text-muted small mb-2">Telkom University Surabaya</p>
-                                <p class="mb-0">Aktif berpartisipasi dalam perencanaan dan pelaksanaan program kerja keagamaan serta kegiatan syiar islam di lingkungan kampus.</p>
-                            </div>
-                            <div class="timeline-item mb-4">
-                                <h3 class="h5 mb-1">Anggota — Dewan Perwakilan Mahasiswa (DPM)</h3>
-                                <p class="text-muted small mb-2">Telkom University Surabaya</p>
-                                <p class="mb-0">Aktif berpartisipasi dalam fungsi legislasi, pengawasan, serta koordinasi kegiatan internal organisasi mahasiswa.</p>
-                            </div>
-                            <div class="timeline-item mb-4">
-                                <h3 class="h5 mb-1">Anggota — Entrepreneur Community & Telkom Art</h3>
-                                <p class="text-muted small mb-2">Telkom University Surabaya</p>
-                                <p class="mb-0">Mengembangkan minat di bidang kewirausahaan kreatif serta seni pertunjukan dan pameran kampus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Proyek Pilihan -->
-        <section id="proyek">
-            <div class="container">
-                <h2 class="section-title">Proyek Pilihan</h2>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <h3 class="h5">Web Personal Portofolio</h3>
-                                <p>Pengembangan website portofolio pribadi responsif menggunakan Bootstrap 5 dan komponen kustom HTML/CSS.</p>
-                                <span class="badge bg-light text-dark mb-3">Web Development</span>
-                                <div><a href="https://github.com/tiuratenafebrina" target="_blank" class="btn btn-sm btn-outline-dark">Lihat di GitHub</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <h3 class="h5">Bootstrap Clone Web</h3>
-                                <p>Kloning halaman beranda Bootstrap menggunakan framework CSS Bootstrap 5, navbar offcanvas, dan grid responsif.</p>
-                                <span class="badge bg-light text-dark mb-3">Bootstrap 5</span>
-                                <div><a href="https://github.com/tiuratenafebrina" target="_blank" class="btn btn-sm btn-outline-dark">Lihat di GitHub</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <h3 class="h5">Git & GitHub Collaboration</h3>
-                                <p>Penerapan Version Control System dengan pembuatan branch, commit, pull request, dan code review bersama tim.</p>
-                                <span class="badge bg-light text-dark mb-3">Git Repository</span>
-                                <div><a href="https://github.com/tiuratenafebrina" target="_blank" class="btn btn-sm btn-outline-dark">Lihat di GitHub</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <h3 class="h5">Sistem Informasi Peminjaman Fasilitas Kampus</h3>
-                                <p>Perancangan Use Case, Activity, dan Class Diagram menggunakan Visual Paradigm untuk aplikasi web fasilitas kampus.</p>
-                                <span class="badge bg-light text-dark mb-3">UI/UX & Modeling</span>
-                                <div><a href="https://github.com/tiuratenafebrina" target="_blank" class="btn btn-sm btn-outline-dark">Lihat di GitHub</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 bg-white">
-                            <div class="card-body">
-                                <h3 class="h5">Konfigurasi Server Nginx & DNS</h3>
-                                <p>Membangun dan mengonfigurasi Nginx sebagai web server serta BIND sebagai DNS server pada Virtual Machine Rocky Linux (VMware) dengan pengaturan zona forward/reverse untuk domain tiur.sisjarlab.io dan tiur.lab.</p>
-                                <span class="badge bg-light text-dark mb-3">System Admin</span>
-                                <div><a href="https://github.com/tiuratenafebrina" target="_blank" class="btn btn-sm btn-outline-dark">Lihat di GitHub</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Kontak -->
-        <section id="kontak" class="bg-sand">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-5">
-                        <h2 class="section-title">Kontak</h2>
-                        <p class="fs-5">Tertarik untuk berkolaborasi atau berdiskusi seputar pengembangan web? Silakan hubungi saya melalui:</p>
-                        <ul class="list-unstyled fs-5">
-                            <li class="mb-2"><i class="bi bi-envelope me-2 text-teal"></i>tiuratenafebrina@gmail.com</li>
-                            <li class="mb-2"><i class="bi bi-github me-2 text-teal"></i>github.com/tiuratenafebrina</li>
-                            <li class="mb-2"><i class="bi bi-linkedin me-2 text-teal"></i>Tiur Atenafebrina</li>
-                            <li><i class="bi bi-geo-alt me-2 text-teal"></i>Surabaya, Jawa Timur, Indonesia</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="card bg-white">
-                            <div class="card-body p-4">
-                                <div class="mb-3">
-                                    <label for="nama" class="form-label">Nama</label>
-                                    <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="nama@email.com">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="pesan" class="form-label">Pesan</label>
-                                    <textarea class="form-control" id="pesan" rows="4" placeholder="Tuliskan pesan atau catatan..."></textarea>
-                                </div>
-                                <button type="button" class="btn btn-teal px-4">Kirim pesan</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer ala Bootstrap Style -->
-    <footer class="bg-ink text-white py-5">
-        <div class="container">
-            <div class="row g-4 justify-content-between">
-                <div class="col-md-3">
-                    <div class="d-flex align-items-center gap-2 mb-3">
-                        <div class="bg-white text-dark fw-bold px-2 py-1 rounded" style="font-size: 1.25rem;">T</div>
-                        <span class="fs-5 fw-bold">Tiur Atenafebrina</span>
-                    </div>
-                    <p class="text-secondary small mb-2">Designed and built with passion by Tiur Atenafebrina with the help of community guidelines.</p>
-                    <p class="text-secondary small mb-2">Code licensed MIT, docs CC BY 3.0.</p>
-                    <p class="text-secondary small mb-0">Currently v5.3.3.</p>
-                </div>
-                <div class="col-6 col-md-2">
-                    <h5 class="h6 fw-bold mb-3">Links</h5>
-                    <ul class="list-unstyled small text-secondary">
-                        <li class="mb-2"><a href="#hero" class="text-secondary text-decoration-none">Home</a></li>
-                        <li class="mb-2"><a href="#tentang" class="text-secondary text-decoration-none">About</a></li>
-                        <li class="mb-2"><a href="#keahlian" class="text-secondary text-decoration-none">Skills</a></li>
-                        <li class="mb-2"><a href="#minat" class="text-secondary text-decoration-none">Interests</a></li>
-                        <li class="mb-2"><a href="#organisasi" class="text-secondary text-decoration-none">Organization</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md-2">
-                    <h5 class="h6 fw-bold mb-3">Guides</h5>
-                                        <ul class="list-unstyled small text-secondary">
-                        <li class="mb-2"><a href="#proyek" class="text-secondary text-decoration-none">Projects</a></li>
-                        <li class="mb-2"><a href="#kontak" class="text-secondary text-decoration-none">Contact</a></li>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm border-0 p-4">
+                    <h2 class="fw-bold mb-4 text-dark">Daftar Tugas & Web Personal PAW</h2>
+                    <p class="text-muted mb-4">Nama: Tiur Atenafebrina | NIM: 108052500014 | Kelas: IS-08-02</p>
+                    
+                    <ul class="list-group list-group-flush fs-5">
+                        <!-- Tautan menuju Web Personal Portofolio -->
+                        <li class="list-group-item py-3 d-flex align-items-center">
+                            <i class="bi bi-person-badge text-teal me-3 fs-4"></i>
+                            <a href="web-personal/index.html" class="text-decoration-none fw-semibold text-primary">
+                                Web Personal Portofolio (Utama)
+                            </a>
+                        </li>
+                        
+                        <!-- Tautan menuju Tugas Modul 1 / Praktikum Bootstrap -->
+                        <li class="list-group-item py-3 d-flex align-items-center">
+                            <i class="bi bi-code-square text-teal me-3 fs-4"></i>
+                            <a href="modul_01/index.html" class="text-decoration-none fw-semibold text-primary">
+                                Praktikum Modul 7 - Bootstrap Clone (Modul 1)
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
